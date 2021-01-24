@@ -11,7 +11,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS_CI }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          plugin_isocalendar: "yes"
-          plugin_isocalendar_duration: "full-year"
-          plugin_stargazers: "yes"
-          plugin_followup: "yes"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_followup: yes
+          plugin_lines: yes
+          plugin_languages: yes
