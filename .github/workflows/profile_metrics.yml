@@ -39,9 +39,9 @@ jobs:
           base_indepth: yes
           base: ''
           plugin_languages: yes
-          repositories_affiliations: owner
+          repositories_affiliations: owner, collaborator, organization-member
           plugin_languages_indepth: yes
           filename: metrics.languages.svg
           plugin_languages_colors: rainbow
-          plugin_languages_ignored: html, css
+          plugin_languages_ignored: html, css, php, c++
           plugin_languages_details: bytes-size, percentage, lines
