@@ -11,6 +11,7 @@ jobs:
         with:
           base: ""
           token: ${{ secrets.METRICS_CI }}
+          repositories_affiliations: owner, collaborator, organization_member
 
           # activity calendar
           plugin_isocalendar: yes
@@ -18,7 +19,6 @@ jobs:
 
           # PRs and issues
           plugin_followup: yes
-          plugin_followup_indepth: yes
           
           # licenses
           plugin_licenses: yes
