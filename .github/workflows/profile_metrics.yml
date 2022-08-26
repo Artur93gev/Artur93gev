@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          base: ""
+          base: repositories, organizations
           token: ${{ secrets.METRICS_CI }}
           repositories_affiliations: owner, collaborator, organization_member
 
@@ -25,8 +25,6 @@ jobs:
 
           # code lines
           plugin_lines: yes
-          plugin_lines_sections: repositories, history
-          plugin_lines_history_limit: 0
 
           # languages
           plugin_languages: yes
