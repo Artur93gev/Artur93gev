@@ -7,5 +7,5 @@
     <img align="right" width="48%" alt="Achievments" src="./metrics.achievements.svg">
 </p>
 <p align="center">
-    <img width="100%" alt="General metrics" src="./metrics.svg">
+    <img width="80%" alt="General metrics" src="./metrics.svg">
 </p>
