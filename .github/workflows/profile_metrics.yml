@@ -41,6 +41,9 @@ jobs:
           plugin_languages: yes
           repositories_affiliations: owner, collaborator, organization-member
           plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_recent_load: 1000
+          plugin_languages_recent_days: 0
           filename: metrics.languages.svg
           plugin_languages_colors: rainbow
           plugin_languages_ignored: html, css, php, c++
