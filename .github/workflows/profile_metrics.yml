@@ -47,4 +47,3 @@ jobs:
           filename: metrics.languages.svg
           plugin_languages_colors: rainbow
           plugin_languages_ignored: html, css, php, c++
-          plugin_languages_details: bytes-size, percentage, lines
