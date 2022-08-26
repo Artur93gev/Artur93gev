@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          base: ""
           token: ${{ secrets.METRICS_CI }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # activity calendar
           plugin_isocalendar: yes
@@ -19,6 +19,9 @@ jobs:
           # PRs and issues
           plugin_followup: yes
           plugin_followup_indepth: yes
+          
+          # licenses
+          plugin_licenses: yes
 
           # code lines
           plugin_lines: yes
@@ -38,3 +41,4 @@ jobs:
           # work time and tools
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.METRICS_CI }}
