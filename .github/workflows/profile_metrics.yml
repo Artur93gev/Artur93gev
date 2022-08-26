@@ -9,9 +9,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          base: repositories, organizations
           token: ${{ secrets.METRICS_CI }}
-          repositories_affiliations: owner, collaborator, organization_member
+          base_indepth: yes
+          repositories_affiliations: owner, collaborator
 
           # activity calendar
           plugin_isocalendar: yes
