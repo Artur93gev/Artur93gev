@@ -26,6 +26,7 @@ jobs:
           token: ${{ secrets.METRICS_CI }}
           base_indepth: yes
           base: ''
+          debug: yes
           plugin_languages: yes
           repositories_affiliations: owner, collaborator, organization-member
           plugin_languages_indepth: yes
